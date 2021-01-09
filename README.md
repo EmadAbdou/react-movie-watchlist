@@ -2,6 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Info
+
+This project made with react js, react hooks, context api and local storage
+
+# Idea
+
+This app is a movie watchlist app, you can search for your movie amoung thousands of movies, add it to your watchlist,
+move it to watched and remove it
+
+# Demo
+
+You can try this app via this link 
+(https://react-watchlist.netlify.app/)
+
 ## Available Scripts
 
 In the project directory, you can run:
