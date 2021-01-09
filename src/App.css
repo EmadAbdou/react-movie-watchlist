@@ -119,6 +119,12 @@ header .nav-links li {
     margin-right: 30px;
 }
 
+@media(max-width: 576px) {
+    header .nav-links li {
+        margin-right: 15px;
+    }
+}
+
 header .nav-links li:last-child {
     margin-right: 0;
 }
@@ -140,6 +146,12 @@ header .nav-links li:last-child {
     border: none;
     color: var(--white);
     font-size: 1.25rem;
+}
+
+@media(max-width: 576px) {
+    .add-content .input-wrapper input {
+        height: 3em;
+    }
 }
 
 .results {
@@ -168,6 +180,14 @@ header .nav-links li:last-child {
     color: transparent;
 }
 
+@media(max-width: 576px) {
+    .result-card .poster-wrapper img,
+    .filler-poster {
+        width: 105px;
+        height: 146px;
+    }
+}
+
 .result-card .info {
     display: flex;
     flex-direction: column;
@@ -190,6 +210,13 @@ header .nav-links li:last-child {
 
 .result-card .controls button {
     margin-right: 10px;
+}
+
+@media(max-width: 576px) {
+    .result-card .controls button {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
 }
 
 
@@ -225,6 +252,12 @@ header .nav-links li:last-child {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
+}
+
+@media(max-width: 576px) {
+    .movie-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (min-width: 992px) {
@@ -277,6 +310,20 @@ header .nav-links li:last-child {
     transition: all 0.3s ease;
 }
 
+@media(max-width: 576px) {
+    .movie-card .inner-card-controls {
+        width: 60%;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media(max-width: 576px) {
+    i {
+        font-size: 1.3em;
+    }
+}
+
 .movie-card:hover .inner-card-controls {
     opacity: 1;
 }
@@ -289,6 +336,13 @@ header .nav-links li:last-child {
     font-size: 1.25rem;
     padding: 5px;
     margin: 0;
+}
+
+@media(max-width: 576px) {
+    .ctrl-btn {
+        padding: 6px;
+        margin: 3px;
+    }
 }
 
 .ctrl-btn:hover {
